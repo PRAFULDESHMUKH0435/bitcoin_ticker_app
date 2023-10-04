@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
               height: 500,
               child: Lottie.asset('assets/Animations/anim_2.json'),
             ),
-            Text('Bitcoin App',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color:Colors.white),)
+            // Text('Bitcoin App',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color:Colors.white),)
           ],
         ),
       ),
