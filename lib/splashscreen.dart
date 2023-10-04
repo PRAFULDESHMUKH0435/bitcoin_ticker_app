@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 10), () {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>IntroPage()));
     });
   }
@@ -27,10 +27,10 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Colors.black,
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          // mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 500,
+              height: 800,
               child: Lottie.asset('assets/Animations/anim_2.json'),
             ),
             // Text('Bitcoin App',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color:Colors.white),)
