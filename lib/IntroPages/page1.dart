@@ -12,6 +12,8 @@ class Page1 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Container(
+              decoration: BoxDecoration(
+              ),
               height: 250,
               child: Lottie.asset('assets/Animations/anim_1.json'),
             ),

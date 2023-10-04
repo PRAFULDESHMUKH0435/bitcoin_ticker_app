@@ -30,8 +30,8 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 250,
-              child: Lottie.asset('assets/Animations/anim_splash.json'),
+              height: 500,
+              child: Lottie.asset('assets/Animations/anim_2.json'),
             ),
             Text('Bitcoin App',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color:Colors.white),)
           ],
